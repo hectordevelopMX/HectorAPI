@@ -1,6 +1,10 @@
 module Api
 class OperacionesController < ApplicationController
 	
+	def index
+      render json: "Saludos amigos!"
+    end
+
 	def circulo
 	    
 		radio = params[:radio]
