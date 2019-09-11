@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  radio: 9.99
+  lado: 9.99
+  base: 9.99
+  altura: 9.99
+
+two:
+  nombre: MyString
+  radio: 9.99
+  lado: 9.99
+  base: 9.99
+  altura: 9.99
