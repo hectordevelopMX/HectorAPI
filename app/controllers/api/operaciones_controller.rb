@@ -2,7 +2,7 @@ module Api
 class OperacionesController < ApplicationController
 	
 	def index
-      render json: "Saludos amigos!"
+      render json: "El ale es muy pro"
     end
 
 	def circulo
