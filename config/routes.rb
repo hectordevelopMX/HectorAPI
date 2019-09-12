@@ -4,9 +4,9 @@ Rails.application.routes.draw do
  		end
  		resources :operaciones do
 	 		collection do
-	 			get '/circulo' => 'operaciones#circulo'
-	 			get '/triangulo' => 'operaciones#triangulo'
-	 			get '/cuadrado' => 'operaciones#cuadrado'
+	 			post '/circulo' => 'operaciones#circulo'
+	 			post '/triangulo' => 'operaciones#triangulo'
+	 			post '/cuadrado' => 'operaciones#cuadrado'
 	 		end
 	 	end
 	end 
