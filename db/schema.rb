@@ -18,6 +18,8 @@ ActiveRecord::Schema.define(version: 2019_09_11_202719) do
     t.decimal "lado"
     t.decimal "base"
     t.decimal "altura"
+    t.decimal "area"
+    t.decimal "perimetro"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

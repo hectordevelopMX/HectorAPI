@@ -2,12 +2,12 @@ module Api
 class OperacionesController < ApplicationController
 	
 	def index
-      render json: "Hola desde Ruby!"
+      render json: "Hola desde Ruby on Rails!"
     end
 
 	def circulo
 	    
-		radio = params[:radio]
+		radio = params[:radio].to_d
 
 		area = Math::PI * radio * radio
 		perimetro = Math::PI * (radio * 2)
@@ -19,7 +19,7 @@ class OperacionesController < ApplicationController
 
 	def cuadrado
 	    
-		lado = params[:lado]
+		lado = params[:lado].to_d
 
 		area = lado * lado
 		perimetro = lado * 4
@@ -31,8 +31,8 @@ class OperacionesController < ApplicationController
 
 	def triangulo
 	    
-		base = params[:base]
-		altura = params[:altura]
+		base = params[:base].to_d
+		altura = params[:altura].to_d
 
 		area = (base * altura) / 2
 		perimetro = base * 3
