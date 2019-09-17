@@ -1,46 +1,122 @@
 module Api
-class OperacionesController < ApplicationController
-	
-	def index
-      render json: "Hola desde Ruby on Rails!"
-    end
+	class OperacionesController < ApplicationController
+		
+		# /api/operaciones
+		def index
+			
+			#--------------------------------------------------------
+			# METODOS DE CADENAS
 
-	def circulo
-	    
-		radio = params[:radio].to_d
+			#nombre = ""
 
-		area = Math::PI * radio * radio
-		perimetro = Math::PI * (radio * 2)
+			#if !nombre.empty?
+			#	render json: "Hola amigo #{ nombre }"
+			#else
+			#	render json: "Hola amigo"
+			#end
 
-		response = Response.new(area, perimetro)
+			#render json: "Hola amigo #{ nombre }" if !nombre.empty? 
 
-    	render json: response
-	end
+			#render json: "No eres mayor de edad" unless edad >= 18
 
-	def cuadrado
-	    
-		lado = params[:lado].to_d
+			#render json: "Hola".eql?("Hola") comparacion con cadenas
+			#render json: "Hola".equal?("Hola") comparacion con objetos
 
-		area = lado * lado
-		perimetro = lado * 4
+			#--------------------------------------------------------
+			# CONDICIONES CON IF Y UNLESS
+			#edad = 15
+			#unless edad >= 18
+			#	render json: "No eres mayor de edad"
+			#end
 
-		response = Response.new(area, perimetro)
+			#--------------------------------------------------------
+			# CASE (o switch en otros lenguajes)
 
-    	render json: response
-	end
+			#calificacion = params[:calif].to_i
 
-	def triangulo
-	    
-		base = params[:base].to_d
-		altura = params[:altura].to_d
+			#render json: case calificacion
+			#when 100
+			#	"Muy bien"
+			#when 90
+			#	"Bien hecho"
+			#when 80
+			#	"Bien"
+			#when 70
+			#	"Mas o menos"
+			#when 60
+			#	"Casi horrible"
+			#else
+			#	"Reprobado"
+			#end
 
-		area = (base * altura) / 2
-		perimetro = base * 3
+			#--------------------------------------------------------
+			# ARREGLOS (Each - iterador)
+			#array = %w[12 13 43 28 23] # %w es para no poner comas y son cadenas
+			#array << 34
 
-		response = Response.new(area, perimetro)
+			#resultado = ""
+			#array.each_with_index do |item, pos| 
+			#	resultado += "Pos #{pos} = #{item.to_i} \n"
+			#end
 
-    	render json: response
-	end
+			#array.each do |item|
+			#	resultado += "#{item.to_i} \n"
+			#end
+
+			render json: "Ingeniería de Software"
+		end
+
+		# /api/operaciones/circulo
+		def circulo
+			
+			#recibir parametro radio y convertir a double
+			radio = params[:radio].to_d
+
+			#calcular el area y el perimetro
+			area = Math::PI * radio * radio
+			perimetro = Math::PI * (radio * 2)
+
+			#crear objeto que recibe como parametros esos valores calculados
+			response = Response.new(area, perimetro)
+
+			#regresar el json del objeto response
+			render json: response
+		end
+
+		# /api/operaciones/cuadrado
+		def cuadrado
+			
+			#recibir parametro lado y convertir a double
+			lado = params[:lado].to_d
+
+			#calcular el area y el perimetro
+			area = lado * lado
+			perimetro = lado * 4
+
+			#crear objeto que recibe como parametros esos valores calculados
+			response = Response.new(area, perimetro)
+
+			#regresar el json del objeto response
+			render json: response
+		end
+
+		# /api/operaciones/triangulo
+		def triangulo
+			
+			#recibir parametro base, altura y convertirlos a double
+			base = params[:b].to_d
+			altura = params[:h].to_d
+
+			#calcular el area y el perimetro
+			area = (base * altura) / 2
+			perimetro = base * 3
+
+			#crear objeto que recibe como parametros esos valores calculados
+			response = Response.new(area, perimetro)
+
+			#regresar el json del objeto response
+			render json: response
+		end
 
 	end
 end

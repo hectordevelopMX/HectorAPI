@@ -4768,3 +4768,689 @@ Processing by Api::OperacionesController#triangulo as */*
 Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/api/operaciones/cuadrado?lado=12.3" for ::1 at 2019-09-13 16:03:13 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/hector/.rvm/gems/ruby-2.6.0/gems/puma-3.12.1/lib/puma/configuration.rb:227
+Processing by Api::OperacionesController#cuadrado as HTML
+  Parameters: {"lado"=>"12.3"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:03:33 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:04:03 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:06:55 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:07:10 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:07:26 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:07:33 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:07:54 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:08:01 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:08:13 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:09:52 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:14:44 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:14:46 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:14:57 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:14:58 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:14:58 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:14:58 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:15:17 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:15:18 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:15:21 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:15:43 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:15:44 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:15:45 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:15:45 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:15:45 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:15:47 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:15:55 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:21:09 -0500
+  
+SyntaxError (/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:53: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/api/operaciones_controller.rb:53: syntax error, unexpected end-of-input, expecting end
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:21:17 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `empty' for "Hector":String
+Did you mean?  empty?):
+  
+app/controllers/api/operaciones_controller.rb:8:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:21:29 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:21:34 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:22:22 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:23:25 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:23:48 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:24:09 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:24:17 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:24:21 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:24:28 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/api/operaciones_controller.rb:14:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:24:45 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:25:02 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:25:08 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:25:09 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:25:20 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/api/operaciones_controller.rb:14:in `equal?'
+app/controllers/api/operaciones_controller.rb:14:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:25:32 -0500
+  
+SyntaxError (/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:15: syntax error, unexpected end
+    end
+    ^~~
+/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:56: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/api/operaciones_controller.rb:15: syntax error, unexpected end
+app/controllers/api/operaciones_controller.rb:56: syntax error, unexpected end-of-input, expecting end
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:25:32 -0500
+  
+SyntaxError (/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:15: syntax error, unexpected end
+    end
+    ^~~
+/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:56: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/api/operaciones_controller.rb:15: syntax error, unexpected end
+app/controllers/api/operaciones_controller.rb:56: syntax error, unexpected end-of-input, expecting end
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:25:58 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:26:21 -0500
+  
+SyntaxError (/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:14: syntax error, unexpected tSTRING_BEG, expecting end
+		render json: "Hola".eql?"heft"
+		                        ^):
+  
+app/controllers/api/operaciones_controller.rb:14: syntax error, unexpected tSTRING_BEG, expecting end
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:26:32 -0500
+  
+SyntaxError (/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:14: syntax error, unexpected tSTRING_BEG, expecting end
+		render json: "Hola".equal?"heft"
+		                          ^):
+  
+app/controllers/api/operaciones_controller.rb:14: syntax error, unexpected tSTRING_BEG, expecting end
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:26:46 -0500
+  
+SyntaxError (/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:14: syntax error, unexpected tSTRING_BEG, expecting end
+		render json: "Hola".equal? "heft"
+		                           ^):
+  
+app/controllers/api/operaciones_controller.rb:14: syntax error, unexpected tSTRING_BEG, expecting end
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:27:28 -0500
+  
+SyntaxError (/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:14: syntax error, unexpected tSTRING_BEG, expecting end
+		render json: "Hola".equal? "Hola"
+		                           ^):
+  
+app/controllers/api/operaciones_controller.rb:14: syntax error, unexpected tSTRING_BEG, expecting end
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:27:53 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 500 Internal Server Error in 135ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `nombre' for #<Api::OperacionesController:0x00007fb4871d1300>):
+  
+app/controllers/api/operaciones_controller.rb:8:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:27:56 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `nombre' for #<Api::OperacionesController:0x00007fb486c40d00>):
+  
+app/controllers/api/operaciones_controller.rb:8:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:28:08 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:30:17 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:35:37 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:35:49 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:37:37 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:37:52 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:38:01 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:38:18 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:38:24 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:38:26 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:38:35 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:38:37 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:39:42 -0500
+  
+SyntaxError (/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:14: else without rescue is useless
+...ombre }" if !nombre.empty? else "Hola perro"
+...                           ^~~~):
+  
+app/controllers/api/operaciones_controller.rb:14: else without rescue is useless
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:39:52 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:39:57 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:39:57 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:39:58 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:40:31 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:46:57 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `resultado' for #<Api::OperacionesController:0x00007fb487ccac70>):
+  
+app/controllers/api/operaciones_controller.rb:28:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 16:47:11 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?calif=12" for ::1 at 2019-09-13 16:47:43 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"12"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?calif=100" for ::1 at 2019-09-13 16:47:48 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"100"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?calif=100" for ::1 at 2019-09-13 16:47:57 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"100"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?calif=80" for ::1 at 2019-09-13 16:48:01 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"80"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?calif=85" for ::1 at 2019-09-13 16:48:04 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"85"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?calif=70" for ::1 at 2019-09-13 16:48:08 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"70"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?calif=70" for ::1 at 2019-09-13 16:56:27 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"70"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?calif=70" for ::1 at 2019-09-13 17:01:03 -0500
+  
+SyntaxError (/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:53: unknown type of %string
+		array = %d[12 13 43 28 23] # %d es para ...
+		        ^~~
+/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:53: syntax error, unexpected end-of-input
+		array = %d[12 13 43 28 23] # %d es para ...
+		        ^~~):
+  
+app/controllers/api/operaciones_controller.rb:53: unknown type of %string
+app/controllers/api/operaciones_controller.rb:53: syntax error, unexpected end-of-input
+Started GET "/api/operaciones?calif=70" for ::1 at 2019-09-13 17:01:19 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"70"}
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `item' for #<Api::OperacionesController:0x00007fb486fddad0>):
+  
+app/controllers/api/operaciones_controller.rb:56:in `block in index'
+app/controllers/api/operaciones_controller.rb:56:in `each'
+app/controllers/api/operaciones_controller.rb:56:in `each_with_index'
+app/controllers/api/operaciones_controller.rb:56:in `index'
+Started GET "/api/operaciones?calif=70" for ::1 at 2019-09-13 17:01:45 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"70"}
+Completed 500 Internal Server Error in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/api/operaciones_controller.rb:57:in `block in index'
+app/controllers/api/operaciones_controller.rb:56:in `each'
+app/controllers/api/operaciones_controller.rb:56:in `each_with_index'
+app/controllers/api/operaciones_controller.rb:56:in `index'
+Started GET "/api/operaciones?calif=70" for ::1 at 2019-09-13 17:02:23 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"70"}
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `result' for #<Api::OperacionesController:0x00007fb486c13008>
+Did you mean?  rescue):
+  
+app/controllers/api/operaciones_controller.rb:58:in `block in index'
+app/controllers/api/operaciones_controller.rb:57:in `each'
+app/controllers/api/operaciones_controller.rb:57:in `each_with_index'
+app/controllers/api/operaciones_controller.rb:57:in `index'
+Started GET "/api/operaciones?calif=70" for ::1 at 2019-09-13 17:02:24 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"70"}
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `result' for #<Api::OperacionesController:0x00007fb487bb3be8>
+Did you mean?  rescue):
+  
+app/controllers/api/operaciones_controller.rb:58:in `block in index'
+app/controllers/api/operaciones_controller.rb:57:in `each'
+app/controllers/api/operaciones_controller.rb:57:in `each_with_index'
+app/controllers/api/operaciones_controller.rb:57:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 17:02:33 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `result' for #<Api::OperacionesController:0x00007fb486d967b8>
+Did you mean?  rescue):
+  
+app/controllers/api/operaciones_controller.rb:58:in `block in index'
+app/controllers/api/operaciones_controller.rb:57:in `each'
+app/controllers/api/operaciones_controller.rb:57:in `each_with_index'
+app/controllers/api/operaciones_controller.rb:57:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 17:02:54 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/operaciones_controller.rb:58:in `block in index'
+app/controllers/api/operaciones_controller.rb:57:in `each'
+app/controllers/api/operaciones_controller.rb:57:in `each_with_index'
+app/controllers/api/operaciones_controller.rb:57:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 17:03:06 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `result' for #<Api::OperacionesController:0x00007fb48a850ea8>
+Did you mean?  resultado):
+  
+app/controllers/api/operaciones_controller.rb:61:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 17:03:14 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 17:04:32 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 500 Internal Server Error in 136ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `item' for #<Api::OperacionesController:0x00007fb48a953bc0>):
+  
+app/controllers/api/operaciones_controller.rb:61:in `block in index'
+app/controllers/api/operaciones_controller.rb:61:in `each'
+app/controllers/api/operaciones_controller.rb:61:in `index'
+Started GET "/api/operaciones?calif=70" for ::1 at 2019-09-13 17:04:59 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"70"}
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `pos' for #<Api::OperacionesController:0x00007fb487c7b558>):
+  
+app/controllers/api/operaciones_controller.rb:62:in `block in index'
+app/controllers/api/operaciones_controller.rb:61:in `each'
+app/controllers/api/operaciones_controller.rb:61:in `index'
+Started GET "/api/operaciones?calif=70" for ::1 at 2019-09-13 17:05:39 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"calif"=>"70"}
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `pos' for #<Api::OperacionesController:0x00007fb488889430>):
+  
+app/controllers/api/operaciones_controller.rb:62:in `block in index'
+app/controllers/api/operaciones_controller.rb:61:in `each'
+app/controllers/api/operaciones_controller.rb:61:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 17:05:45 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `pos' for #<Api::OperacionesController:0x00007fb4888a33f8>):
+  
+app/controllers/api/operaciones_controller.rb:62:in `block in index'
+app/controllers/api/operaciones_controller.rb:61:in `each'
+app/controllers/api/operaciones_controller.rb:61:in `index'
+Started GET "/api/operaciones" for ::1 at 2019-09-13 17:05:56 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-13 17:40:09 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-13 17:40:48 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hector/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hector/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.5ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-16 11:18:53 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/hector/.rvm/gems/ruby-2.6.0/gems/puma-3.12.1/lib/puma/configuration.rb:227
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hector/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hector/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones" for ::1 at 2019-09-16 11:18:59 -0500
+Processing by Api::OperacionesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?nombre=Efrain" for ::1 at 2019-09-16 11:20:12 -0500
+  
+SyntaxError (/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:119: unterminated string meets end of file
+/Users/hector/Documents/GitHub/HectorAPI/app/controllers/api/operaciones_controller.rb:119: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/api/operaciones_controller.rb:119: unterminated string meets end of file
+app/controllers/api/operaciones_controller.rb:119: syntax error, unexpected end-of-input, expecting end
+Started GET "/api/operaciones?nombre=Efrain" for ::1 at 2019-09-16 11:20:28 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"nombre"=>"Efrain"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?nombre=Efrain" for ::1 at 2019-09-16 11:20:53 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"nombre"=>"Efrain"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?nombre=isma" for ::1 at 2019-09-16 11:21:03 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"nombre"=>"isma"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?nombre=Nahum" for ::1 at 2019-09-16 11:21:13 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"nombre"=>"Nahum"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?nombre=Nahum" for ::1 at 2019-09-16 11:21:21 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"nombre"=>"Nahum"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?nombre=Nahum" for ::1 at 2019-09-16 11:21:22 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"nombre"=>"Nahum"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?nombre=Nahum" for ::1 at 2019-09-16 11:21:24 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"nombre"=>"Nahum"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/operaciones?nombre=Nahum" for ::1 at 2019-09-16 11:21:30 -0500
+Processing by Api::OperacionesController#index as HTML
+  Parameters: {"nombre"=>"Nahum"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
