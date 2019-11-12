@@ -4,66 +4,7 @@ module Api
 		# /api/operaciones
 		def index
 			
-			#--------------------------------------------------------
-			# METODOS DE CADENAS
-
-			#nombre = ""
-
-			#if !nombre.empty?
-			#	render json: "Hola amigo #{ nombre }"
-			#else
-			#	render json: "Hola amigo"
-			#end
-
-			#render json: "Hola amigo #{ nombre }" if !nombre.empty? 
-
-			#render json: "No eres mayor de edad" unless edad >= 18
-
-			#render json: "Hola".eql?("Hola") comparacion con cadenas
-			#render json: "Hola".equal?("Hola") comparacion con objetos
-
-			#--------------------------------------------------------
-			# CONDICIONES CON IF Y UNLESS
-			#edad = 15
-			#unless edad >= 18
-			#	render json: "No eres mayor de edad"
-			#end
-
-			#--------------------------------------------------------
-			# CASE (o switch en otros lenguajes)
-
-			#calificacion = params[:calif].to_i
-
-			#render json: case calificacion
-			#when 100
-			#	"Muy bien"
-			#when 90
-			#	"Bien hecho"
-			#when 80
-			#	"Bien"
-			#when 70
-			#	"Mas o menos"
-			#when 60
-			#	"Casi horrible"
-			#else
-			#	"Reprobado"
-			#end
-
-			#--------------------------------------------------------
-			# ARREGLOS (Each - iterador)
-			#array = %w[12 13 43 28 23] # %w es para no poner comas y son cadenas
-			#array << 34
-
-			#resultado = ""
-			#array.each_with_index do |item, pos| 
-			#	resultado += "Pos #{pos} = #{item.to_i} \n"
-			#end
-
-			#array.each do |item|
-			#	resultado += "#{item.to_i} \n"
-			#end
-
-			render json: "Ingeniería de Software"
+			render json: "Ingeniería de Software chido"
 		end
 
 		# /api/operaciones/circulo
@@ -121,3 +62,70 @@ module Api
 	end
 end
 
+
+
+
+
+
+
+
+
+
+#--------------------------------------------------------
+			# METODOS DE CADENAS
+
+			#nombre = ""
+
+			#if !nombre.empty?
+			#	render json: "Hola amigo #{ nombre }"
+			#else
+			#	render json: "Hola amigo"
+			#end
+
+			#render json: "Hola amigo #{ nombre }" if !nombre.empty? 
+
+			#render json: "No eres mayor de edad" unless edad >= 18
+
+			#render json: "Hola".eql?("Hola") comparacion con cadenas
+			#render json: "Hola".equal?("Hola") comparacion con objetos
+
+			#--------------------------------------------------------
+			# CONDICIONES CON IF Y UNLESS
+			#edad = 15
+			#unless edad >= 18
+			#	render json: "No eres mayor de edad"
+			#end
+
+			#--------------------------------------------------------
+			# CASE (o switch en otros lenguajes)
+
+			#calificacion = params[:calif].to_i
+
+			#render json: case calificacion
+			#when 100
+			#	"Muy bien"
+			#when 90
+			#	"Bien hecho"
+			#when 80
+			#	"Bien"
+			#when 70
+			#	"Mas o menos"
+			#when 60
+			#	"Casi horrible"
+			#else
+			#	"Reprobado"
+			#end
+
+			#--------------------------------------------------------
+			# ARREGLOS (Each - iterador)
+			#array = %w[12 13 43 28 23] # %w es para no poner comas y son cadenas
+			#array << 34
+
+			#resultado = ""
+			#array.each_with_index do |item, pos| 
+			#	resultado += "Pos #{pos} = #{item.to_i} \n"
+			#end
+
+			#array.each do |item|
+			#	resultado += "#{item.to_i} \n"
+			#end
